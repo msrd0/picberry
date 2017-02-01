@@ -49,7 +49,7 @@ class pic18fj: public Pic{
 		* DEVICES SECTION
 		*                    	ID       NAME           MEMSIZE
 		*/
-		pic_device piclist[22] = {{0x1D20,  "PIC18F44J10", 0x2000},
+		pic_device piclist[23] = {{0x1D20,  "PIC18F44J10", 0x2000},
 								{0x1C20,  "PIC18F45J10", 0x4000},
 								{0x4D80,  "PIC18F24J11", 0x2000},
 								{0x4DA0,  "PIC18F25J11", 0x4000},
@@ -70,5 +70,6 @@ class pic18fj: public Pic{
 								{0x5960,  "PIC18F27J13", 0x10000},
 								{0x59E0,  "PIC18F47J13", 0x10000},
 								{0x5860,  "PIC18F27J53", 0x10000},
-								{0x58E0,  "PIC18F47J53", 0x10000}};
+					  {0x58E0,  "PIC18F47J53", 0x10000},
+					  {0x5A60, "PIC18LF27J53", 0x10000}};
 };
